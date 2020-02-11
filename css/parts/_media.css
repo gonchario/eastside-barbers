@@ -1,0 +1,67 @@
+@media screen and (max-width: 1279.98px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    .container {
+        width: 750px;
+    }
+
+    .hero-title h1 {
+        font-size: 42px;
+    }
+
+    .hero-title p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .container {
+        width: 550px;
+    }
+
+    .hero {
+        background: url(/img/hero-bg2.png) no-repeat top / cover;
+    }
+
+    .hero-title h1 {
+        font-size: 36px;
+    }
+
+    .hero-title p {
+        font-size: 20px;
+    }
+
+    .beard {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 599.98px) {
+    .container {
+        width: 450px;
+    }
+
+    .hero-title h1 {
+        font-size: 30px;
+    }
+
+    .hero-title p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 479.98px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 319.98px) {
+    .container {
+        width: 220px;
+    }
+}

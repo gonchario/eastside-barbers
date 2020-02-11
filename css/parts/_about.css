@@ -1,0 +1,22 @@
+/* about styles */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content__text {
+    color: #fff;
+    width: 700px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content__text p {
+    margin-bottom: 20px;
+}
+
+.about-content__text p:last-child {
+    margin-bottom: 0;
+}
