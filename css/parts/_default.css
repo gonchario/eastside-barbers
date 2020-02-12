@@ -49,3 +49,7 @@ a {
 .btn:hover {
     border: 2px solid #fff;
 }
+
+.bg-white {
+    background-color: #fff;
+}

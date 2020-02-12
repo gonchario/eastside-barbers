@@ -2,6 +2,10 @@
     .container {
         width: 1000px;
     }
+
+    .about-content__text {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 1023.98px) {
@@ -15,6 +19,11 @@
 
     .hero-title p {
         font-size: 28px;
+    }
+
+    .about-content__img {
+        width: 200px;
+        height: 120px;
     }
 }
 
@@ -38,6 +47,18 @@
     .beard {
         display: none;
     }
+
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content__img {
+        width: 350px;
+        height: 225px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 599.98px) {
@@ -52,16 +73,33 @@
     .hero-title p {
         font-size: 18px;
     }
+
+    .about-content__text {
+        width: 450px;
+    }
+
+    .about-content__img {
+        width: 200px;
+        height: 120px;
+    }
 }
 
 @media screen and (max-width: 479.98px) {
     .container {
         width: 300px;
     }
+
+    .about-content__text {
+        width: 270px;
+    }
 }
 
 @media screen and (max-width: 319.98px) {
     .container {
         width: 220px;
+    }
+
+    .about-content__text {
+        width: 200px;
     }
 }
